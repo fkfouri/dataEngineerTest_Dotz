@@ -1,3 +1,5 @@
 apache-beam[gcp]
 pyspark==3.0.1
 gsutil==4.53
+google-cloud-bigquery
+pandas
