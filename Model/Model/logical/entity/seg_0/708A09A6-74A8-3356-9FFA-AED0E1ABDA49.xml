@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="708A09A6-74A8-3356-9FFA-AED0E1ABDA49" name="price_quote">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:14:22 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="quote_id" id="4C07F1D4-5622-38D8-7E92-93DD5A17D0BD">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:16:19 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assembly_id" id="5B609D1B-9EF2-B824-454E-754E51552F20">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:14:56 UTC</createdTime>
+<generatorID>89D3AE85-A2A7-CD9F-D906-74311B10CC18</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<referedAttribute>8DF9EAB0-4D0E-4C19-A617-98561B674FB4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier" id="A71D68B0-E76D-F73E-D7DD-CA01680C057A">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:17:20 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quote_date" id="CE924418-0287-7A25-7717-48724148F10D">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:17:29 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="annual_usage" id="7C6699F1-9C95-6B5F-F1E9-4AA1F6A515FF">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:17:41 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="min_order_quantity" id="9E4060CB-81D5-8A9E-2DAE-1FA5C3F1DF41">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:18:14 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bracket_pricing" id="3887B9F2-D183-CA75-8D2F-569E51507B26">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:18:35 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="BECDD62D-C7B7-8B44-DC0F-55B08582656C">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:18:48 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="FA11C4E7-9E57-E3F1-92C9-6C91AE7B3ADB">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:19:00 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD4E8C0E-5DB0-A7C4-D891-FB9DC37D0F1C" name="price_quote PK">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:17:11 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="9642979E-6A0D-9B22-C0E3-0DE42E8B95E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C07F1D4-5622-38D8-7E92-93DD5A17D0BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

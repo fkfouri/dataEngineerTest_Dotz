@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9F84094-E13B-C900-5306-839B4DDB3636" containerWithKeyObject="702570C7-2B63-1635-F93D-1B73FA932200" localFKIndex="94621A65-9A51-463E-7757-CCC67EA2EA83" name="price_quote_Assembly_FK">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>89D3AE85-A2A7-CD9F-D906-74311B10CC18</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Assembly</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA3A32B2-BC9C-7032-A158-1DED0A94A6E5</referredTableID>
+<keyObject>77910A0B-AE97-7477-CC7B-C0FD0F24944D</keyObject>
+<referredKeyID>77910A0B-AE97-7477-CC7B-C0FD0F24944D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>assembly_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

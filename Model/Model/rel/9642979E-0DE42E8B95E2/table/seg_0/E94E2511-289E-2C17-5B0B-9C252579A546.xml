@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E94E2511-289E-2C17-5B0B-9C252579A546" name="Component">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>FA7DFBE0-A236-77FB-7868-63C6817F5AE5</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="component_id" id="554BE132-C7FD-C5EC-567D-0D69AA07DCDF">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>7052EDAE-7EB4-88C7-2EE7-E3E57E9D0A34</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="component_type_id" id="A4300B8B-BBEA-04D6-0C05-8FDC8332FBE7">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>E1CF8F2D-6500-7FCE-6A95-6C4EB3259CE1</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="C3E80404-092C-8403-CBC2-FD9F3F6229C4">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>10A2846D-7227-1264-AD5D-4E1A95D3A7C0</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="connection_type_id" id="4F7BCD6E-F145-C151-2D42-E9B253D057C1">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>167DFC47-3A0A-38C7-2886-5A982E4DB918</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="outside_shape" id="12C8C521-F3DB-8FDE-DEF2-DF3C33A63F74">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>BEA21BE1-0F70-79EC-80AF-24EA4947EB06</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="base_type" id="60C126FB-3A12-C76C-830B-58E06A9B718C">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>C809E73F-E4B3-6042-AC41-B2DAD9B17B86</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height_over_tube" id="98C6E179-2753-7BE7-59E5-019F4EDC02A1">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>09D3E2F2-CAB4-2DDD-B0A9-A19C2F673963</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bolt_pattern_long" id="21FAF75F-FFE4-4078-B643-5DD1FD869721">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>DAFA2DC9-8E94-2856-8D7C-B948A2FF97CB</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bolt_pattern_wide" id="0BC16233-1F7C-EE76-81BB-8FBF3B7E3369">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>DBA978FC-32F8-D5F3-C9B8-9D404E4680A3</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="groove" id="CD340855-B96D-647C-7053-D3D6AE957575">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>F9A0F579-7F6A-B47A-DF51-245315DC0A1E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="base_diameter" id="7ED6A8C4-92B7-4901-8AAD-45C396760744">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>8C61CE44-B94E-293A-BAB3-BD8E2084CACC</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shoulder_diameter" id="398FC8D3-9A30-A211-0CFC-A12C5BD96027">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>9563320C-6FBA-D184-627E-FA2971A6E045</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unique_feature" id="FDC94741-B520-09D3-07A8-3A4E4BA94AD2">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>EC9911DF-BAB0-82CB-1679-0496951A2156</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orientation" id="9FD392C7-A708-9759-10CB-63A699788007">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>92D8FE0B-C2FC-05F2-7443-08B58FD562FE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="D57203C6-E902-0014-BB3C-D675D99EA979">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>C67A697C-7F65-5AFE-51BC-A8F7B814BBAC</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25A84717-942B-91D2-0FCE-B7C01E8E410D" name="Component_PK">
+<createdBy>fkfouri</createdBy>
+<createdTime>2020-10-17 21:51:14 UTC</createdTime>
+<generatorID>FE243069-4D28-037B-F15A-1ED966E18142</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554BE132-C7FD-C5EC-567D-0D69AA07DCDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
