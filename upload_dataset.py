@@ -69,7 +69,7 @@ def delete_dataset():
 
 def main():
     delete_dataset()
-    upload_dataset()
+    #upload_dataset()
 
 project_id = 'teste-dotz-292803.dotz'
 

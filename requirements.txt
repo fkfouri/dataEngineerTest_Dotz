@@ -1,5 +1,8 @@
 apache-beam[gcp]
+apache-beam[interactive]
 pyspark==3.0.1
 gsutil==4.53
 google-cloud-bigquery
 pandas
+mypy-protobuf
+jupyterlab
