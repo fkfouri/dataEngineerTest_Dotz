@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="702570C7-2B63-1635-F93D-1B73FA932200" name="price_quote">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="702570C7-2B63-1635-F93D-1B73FA932200" name="quotation">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>708A09A6-74A8-3356-9FFA-AED0E1ABDA49</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="quote_id" id="5EBC16B0-5E4F-DCC4-C80B-2F274B6BDDE2">
+<Column name="quotation_id" id="5EBC16B0-5E4F-DCC4-C80B-2F274B6BDDE2">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>4C07F1D4-5622-38D8-7E92-93DD5A17D0BD</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Assembly_assembly_id" id="18A6D2BD-EC94-F910-8545-55A09A3E1001">
+<Column name="tube_assembly_id" id="18A6D2BD-EC94-F910-8545-55A09A3E1001">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>5B609D1B-9EF2-B824-454E-754E51552F20</generatorID>
@@ -120,7 +120,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="221EB3BD-1172-C5F4-2D33-C8F321B9807F" name="price_quote_PK">
+<ind_PK_UK id="221EB3BD-1172-C5F4-2D33-C8F321B9807F" name="quotation_PK">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>CD4E8C0E-5DB0-A7C4-D891-FB9DC37D0F1C</generatorID>
@@ -132,7 +132,7 @@
 <colUsage columnID="5EBC16B0-5E4F-DCC4-C80B-2F274B6BDDE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="94621A65-9A51-463E-7757-CCC67EA2EA83" name="price_quote_Assembly_FK">
+<ind_PK_UK id="94621A65-9A51-463E-7757-CCC67EA2EA83" name="tube_assembly_FK1">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>89D3AE85-A2A7-CD9F-D906-74311B10CC18</generatorID>

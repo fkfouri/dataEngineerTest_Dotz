@@ -16,6 +16,7 @@ def load_dataset_to_BQ(filename, table_id):
 
     table = client.get_table(table_id)  # Make an API request.
     print(
+
         "Loaded {} rows and {} columns to {} at {}.".format(
             table.num_rows, len(table.schema), table_id, datetime.today()
         )
@@ -69,13 +70,21 @@ def delete_dataset():
 
 def main():
     delete_dataset()
-    #upload_dataset()
+    upload_dataset()
 
 project_id = 'teste-dotz-292803.dotz'
 
 if __name__ == '__main__':
     main()
+    i = 0
+
+df = pd.read_csv(f"{ os.getcwd() }/dataset/bill_of_materials.csv", sep=',')
+import numpy as np
+#print(df.replace({np.nan:None}).to_dict('records'))
+print(df.to_string)
 
 
 
+
+#print(pd.io.json.build_table_schema(df))
 

@@ -1,24 +1,23 @@
-# Referencias
+# Teste de Engenheiro de dados para o Grupo Dotz
 
-- https://cloud.google.com/dataflow/docs/quickstarts/quickstart-python
+Este material é parte do processo de seleção de Engenheiros de Dados do Grupo Dotz.
 
+Para este desafio foi disponilizado um conjunto de dados de uma empresa que produz e vende máquinas industriais. O objetivo deste desafio é (1) Fazer a modelagem conceitual dos dados, (2) Criar a infraestrutura necessária e (3) criar todos os artefatos necessários para carregar os arquivos para o banco criado.
 
+Para a realização deste teste foi sugerido a utilização dos recursos da nuvem do Google (GCP) e o Data Flow (GCP). 
 
+## Desafios
+- Estudo e familização com os serviços da GCP
+- Criação de script para envio do Dataset para o Bucket da Google
+- Criação de uma pipeline usando Apache Beam
+- Utilização do DataFlow
 
-# Execucao do Script
+# Requisito 1 - Modelagem conceitual dos Dados
 
-## Instalando o ambiente virtual Python
+Após um estudo da base, foi identificado a necessidade de criar basicamente 4 entidades e estabelecer uma cardinalidade N:M entre **Tube_Assembly** e **component**, para correção fugir da cardinalidade N:M foi inserido uma entidade chamada **product_structure**, assim:
+- 1 conjunto pode ter 1 ou mais componentes;
+- 1 componente pode estar presente em 1 ou mais conjuntos.
 
-`pip install virtualenv`
+especial, 
+![alt text](images/001.png)
 
-## Criando o ambiente virtual
-
-`python -m venv env`
-
-## Habilitando o ambiente virtual
-
-`.\env\Scripts\activate`
-
-## Instalando os pacotes a partir do requirement file
-
-`pip install -r requirements.txt`

@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Component_component_id" id="9ECC8550-796B-CE7E-362F-A30E30C0923C">
+<Column name="component_id" id="9ECC8550-796B-CE7E-362F-A30E30C0923C">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>6A6E9111-7DB6-921D-C7A5-F7388F0BE259</generatorID>
@@ -23,7 +23,7 @@
 <colAssociation fkAssociation="182A1201-F510-3F5D-9402-9B522AB99A75" referredColumn="554BE132-C7FD-C5EC-567D-0D69AA07DCDF"/>
 </associations>
 </Column>
-<Column name="Assembly_assembly_id" id="A62076F3-DC47-61BC-ECBE-800803D26BD1">
+<Column name="tube_assembly_id" id="A62076F3-DC47-61BC-ECBE-800803D26BD1">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>2186771F-6895-8A27-7B1D-66975762ACB1</generatorID>
@@ -52,7 +52,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4473F010-233D-2BF7-416D-83C462142E95" name="product_structure_Component_FK">
+<ind_PK_UK id="4473F010-233D-2BF7-416D-83C462142E95" name="component_FK">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>4387F760-C8F8-1E5D-8892-C7F190A91771</generatorID>
@@ -63,7 +63,7 @@
 <colUsage columnID="9ECC8550-796B-CE7E-362F-A30E30C0923C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D0097AB6-5D95-2656-4342-2C14672A3F14" name="product_structure_Assembly_FK">
+<ind_PK_UK id="D0097AB6-5D95-2656-4342-2C14672A3F14" name="tube_assembly_FK">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>B538054A-4E8F-E9EC-5090-3E4B7AA4F671</generatorID>

@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="assembly_id" id="2186771F-6895-8A27-7B1D-66975762ACB1">
+<Attribute name="tube_assembly_id" id="2186771F-6895-8A27-7B1D-66975762ACB1">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:26:06 UTC</createdTime>
 <generatorID>B538054A-4E8F-E9EC-5090-3E4B7AA4F671</generatorID>

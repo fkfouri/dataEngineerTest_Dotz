@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3A32B2-BC9C-7032-A158-1DED0A94A6E5" name="Assembly">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3A32B2-BC9C-7032-A158-1DED0A94A6E5" name="tube_assembly">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>6D8E7EFE-BE96-FFFB-8E54-ED59EBFF5CEC</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="assembly_id" id="98E1F39F-6713-4FC3-1169-55B9B55890E8">
+<Column name="tube_assembly_id" id="98E1F39F-6713-4FC3-1169-55B9B55890E8">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>8DF9EAB0-4D0E-4C19-A617-98561B674FB4</generatorID>
@@ -21,7 +21,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="77910A0B-AE97-7477-CC7B-C0FD0F24944D" name="Assembly_PK">
+<ind_PK_UK id="77910A0B-AE97-7477-CC7B-C0FD0F24944D" name="tube_assembly_PK">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>9E72044D-77DA-F527-2CA6-33D4C8AD30D5</generatorID>

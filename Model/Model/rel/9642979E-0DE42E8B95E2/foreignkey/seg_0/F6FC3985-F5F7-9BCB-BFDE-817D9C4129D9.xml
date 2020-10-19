@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6FC3985-F5F7-9BCB-BFDE-817D9C4129D9" containerWithKeyObject="0E809BED-55C5-3F30-DF00-9BBA088CA43A" localFKIndex="D0097AB6-5D95-2656-4342-2C14672A3F14" name="product_structure_Assembly_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6FC3985-F5F7-9BCB-BFDE-817D9C4129D9" containerWithKeyObject="0E809BED-55C5-3F30-DF00-9BBA088CA43A" localFKIndex="D0097AB6-5D95-2656-4342-2C14672A3F14" name="tube_assembly_FK">
 <createdBy>fkfouri</createdBy>
 <createdTime>2020-10-17 21:51:14 UTC</createdTime>
 <generatorID>B538054A-4E8F-E9EC-5090-3E4B7AA4F671</generatorID>
 <ownerDesignName>Model</ownerDesignName>
-<referredTableLongName>Assembly</referredTableLongName>
+<referredTableLongName>tube_assembly</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>CA3A32B2-BC9C-7032-A158-1DED0A94A6E5</referredTableID>
 <keyObject>77910A0B-AE97-7477-CC7B-C0FD0F24944D</keyObject>
 <referredKeyID>77910A0B-AE97-7477-CC7B-C0FD0F24944D</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>assembly_id</refColNames>
+<refColNames>tube_assembly_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
