@@ -23,7 +23,7 @@ Após um estudo da base, foi identificado a necessidade de criar basicamente 4 e
 # Requisito 2 - Criação de uma Infraestrutura
 
 Para este desafio, foi utilizados os seguintes GCP:
-- Criação de um **Bucket** para armazenamento do Dataset chamado ;
+- Criação de um **Bucket** para armazenamento do Dataset usando GCS;
 - Código de manipulação do DataSet;
 - Criação de Tabelas no **BigQuery**
 
