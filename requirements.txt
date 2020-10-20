@@ -3,6 +3,7 @@ apache-beam[interactive]
 pyspark==3.0.1
 gsutil==4.53
 google-cloud-bigquery
+google-cloud-storage
 pandas
 mypy-protobuf
 jupyterlab
