@@ -69,6 +69,7 @@ def delete_dataset():
     delete_table(f'{ project_id }.price_quote')
 
 def main():
+    create_dataset(project_id)
     delete_dataset()
     upload_dataset()
 
